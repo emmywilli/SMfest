@@ -1,6 +1,6 @@
 body{
     background-color: #08003B;
-    height: 700vh;
+    height: 100vh;
     overflow-x: hidden;
     
     
@@ -52,7 +52,7 @@ header{
     
 }
 .border{
-    height: 27vh;
+    height: 89%;
 }
 #num{
     font-size: 60px;
@@ -150,7 +150,7 @@ header{
 #glad{
     font-size: 17px;
     color: white;
-    margin-top: -40px;
+    margin-top: -10px;
     font: bold;
     font-family: 'Clash Display', sans-serif;
 }
@@ -162,7 +162,7 @@ header{
     margin-left: 30%
 }
 #star a.text-completed::after,.text-completed::before{
-    content: "SPONSOR";
+    content: "BUY TICKET";
     position: absolute;
     align-items: center;
     justify-content: center;
@@ -202,7 +202,7 @@ header{
     padding: 30px;
     align-items: center;
     justify-content: center;
-    background-color: #fb4c37;
+    background-color: #fb4c37 ;
 }
 
 
@@ -239,16 +239,26 @@ header{
     color: white;
 }
 #about{
-    margin-top: 40px;
+    margin-top: 190px;
 }
 #hh{
     font-size: 15px;
     color: #EE2F5B;
     font-family: 'Clash Display', sans-serif;
     display: flex;
+    
+}
+#paragraph{
+    font-size: 21px;
+    color: #EE2F5B;
+    font-family: 'Clash Display', sans-serif;
+    display: flex;
+    gap: 8px;
+    margin-top: 60%;
+    
 }
 .live{
-    margin-top: 190px;
+    margin-top: 30px;
 }
 #she{
     font-size: 13px;
@@ -256,12 +266,76 @@ header{
 .them{
     border: 1px solid white;
     width: 39%;
-    height: 21vh;
+    height: 16%;
     text-align: center;
     padding-top: 20px;
     background-color: #df2771;
     margin-top: 58px;
     margin-left: -49px;
+}
+.exhibit-section {
+    background-color: var(--indigo);
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.exhibit-slide {
+    margin-top: 240px;
+}
+.exhibit-slide .bi-arrow-right {
+    font-size: 85px;
+    color: #EE2F5B;
+}
+.exhibit {
+    font-family: 'ClashDisplay-Bold', Arial, sans-serif;
+    color: white;
+    font-size: 60px;
+    
+}
+.exhibit-img {
+    display: block;
+    width: 100%;
+    height: 120%;
+    left: 0%;
+}
+
+.exhibit-img:hover {
+    filter: brightness(60%);
+    width: 101%;
+}
+.carousel-control-prev-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--pink);
+}
+.carousel-control-next-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--pink);
+}
+.speaker-section {
+    background-color: var(--indigo);
+    padding-top: 90px;
+}
+.some {
+    color: var(--pink);
+    font-size: 18px;
+    letter-spacing: 7px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.previous {
+    font-family: 'ClashDisplay-Bold', Arial, sans-serif;
+    color: var(--white);
+    font-size: 55px;
+}
+.stage {
+    color: var(--white);
+    font-size: 16px;
+    width: 70vw;
+    margin: 0 auto;
+    margin-bottom: 45px;
 }
 .silver a.gold::after,.gold::before{
     content: "READ MORE";
@@ -346,7 +420,7 @@ label span .bi-list{
     display: none;
 }
 .peace{
-    margin-top: 25%;
+    margin-top: 7%;
 }
 #h1{
     font-size: 17px;
@@ -365,18 +439,18 @@ label span .bi-list{
 }
 .bed{
    border: 4px solid #EE2F5B;
-   height: 90vh;
-   right: -20px;
-   width: 90%;
-   border-radius: 10px;
-   margin-top: -90px;
-   position: absolute;
+    position: absolute;
+    height: 96%;
+    right: -50px;
+    width: 90%;
+    border-radius: 8px;
+    margin-top: 20%;
 }
 #lit{
     position: relative;
-    left: -90px;
+    left: -70px;
     height: 100%;
-    width: 110%;
+    width: 105%;
     margin-top: 30px;
 }
 #git{
@@ -404,17 +478,18 @@ label span .bi-list{
 .th{
     border: 1px solid white;
     width: 43%;
-    height: 20vh;
+    height: 20%;
     text-align: center;
-    margin-left: 67%;
+    margin-left: 73%;
     background-color: #101010;
-    margin-top: 61%;
+    margin-top: 100%;
 }
 #sir{
     font-size: 24px;
     font-family: 'Clash Display', sans-serif;
     color: white;
 }
+
 .pic-two{
     margin-top: 20px;
     
@@ -434,16 +509,47 @@ label span .bi-list{
     margin-top: 21%;
     width: 88%;
     left: 8%;
-    height: 106vh;
+    height: 92%;
     border-radius: 10px;
 }
 .can{
-    margin-top: -26%;
+    margin-top: -31%;
+}
+.img-2{
+    position: relative;
+    margin-top: 0px;
+}
+.those{
+    border: 1px solid white;
+    width: 43%;
+    height: 15%;
+    text-align: center;
+    margin-left: 61%;
+    background-color: #101010;
+    margin-top: 66%;
+    margin-top: 130%;
+}
+.img-3{
+    position: absolute;
+    border: 4px solid #EE2F5B;
+    margin-top: 45%;
+    width: 88%;
+    left: 8%;
+    height: 74%;
+    border-radius: 10px;
+}
+#lin{
+    position: relative;
+    height: 103%;
+    width: 98%;
+    margin-top: 20px;
+    right: 7%;
 }
 #up{
     position: relative;
-    height: 111vh;
-    margin-top: 20px;
+    height: 102%;
+    width: 98%;
+    margin-top: 40px;
     right: 7%;
 }
 #red{
@@ -541,16 +647,237 @@ label span .bi-list{
 #hh{
     gap: 10px;
 }
+.import{
+    margin-top: 14%;
+}
 #git{
     font-size: 68px;
     font-family: 'Clash Display', sans-serif;
 }
-#held{
-    margin-top: 30%;
+
+.vip{
+    margin-top: 60px;
+}
+#speakers{
+    color: #EE2F5B;
+    font-family: 'clash Display', sans-serif;
+    text-align: center;
+    justify-content: space-between;
+}
+#speak{
     color: white;
+    font-size: 55px;
+    font-family: 'clash Display', sans-serif;
+    text-align: center;
+}
+#phase{
+    color: white;
+    text-align: center;
+
+}
+#speaker-img:hover {
+    filter: brightness(60%);
+    width: 101%;
+}
+.ing{
+    height: 150%;
+}
+#get-your{
+    color: white;
+    font-size: 55px;
+    font-family: 'clash Display', sans-serif;
+    text-align: center;
+}
+#ticket-phase{
+    color: white;
+    text-align: center;
+}
+#tick{
+    font-size: 18px;
+    color: #EE2F5B;
+    text-align: center;
+    font-family: 'clash Display', sans-serif;
+
+}
+.categorie{
+    margin-top: 10%;
+}
+.border-pink{
+    text-align: center;
+    padding-top: 20px;
 }
 
-@media (max-width: 1200px){
+.border-pink:hover{
+    border-color:  #EE2F5B;
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px 5px #EE2F5B inset;
+}
+#font{
+    font-size: 28px;
+    color: white;
+}
+.base{
+    color: white;
+    font-size: 35px;
+    font-family: 'clash Display', sans-serif;
+
+}
+#butt{
+    margin-top: 25%;
+    height: 45px;
+    width: 50%;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin-bottom: 18px;
+}
+#butt:hover{
+    height: 60px;
+}
+#buy-my:hover{
+    height: 60px;
+}
+.border-pink{
+    border: 1px solid #df2771;
+    height: 10%;
+    margin-top: 9%;
+}
+.basic{
+    color: white;
+    margin: -4px;
+}
+#x{
+    font-size: 28px;
+    color: darkred;
+}
+#moni{
+    color: #df2771;
+    font-family: 'clash Display', sans-serif;
+    font-size: 40px;
+}
+
+#buy-my{
+    margin-top: 45%;
+    padding-bottom: 10px;
+    height: 45px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin-bottom: 18px;
+}
+#footer{
+    margin-top: 80px;
+    background-image: url(/img/WhatsApp\ Image\ 2024-08-12\ at\ 4.41.31\ PM.jpeg);
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    max-width:1890px;
+    margin: auto;
+    margin-top: 60px;
+    opacity: 0.7;
+}
+#footer img{
+    height: 170px;
+}
+.contact {
+    padding-left: 23px;
+}
+.contact p{
+    color: #ffff;
+    margin-top: -27px;
+    font-size: 17px;
+}
+.contact span a{
+    color: #ffff;
+}
+.contact span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    margin-top: 20px;
+    border: 1px solid #ffff;
+    transition: 0.3s;
+   
+}
+.contact span:hover{
+    background-color: #e9335f;
+    color: #ffff;
+    border: none;
+    font-weight: bold;
+}
+.about h3{
+    color: #ffff;
+    font-family: myfont;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.about ul{
+    display: block;
+}
+.about ul li{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    list-style: none;
+    padding: 3px;
+    text-align: center;
+    font-size: larger;
+}
+.about ul li a{
+    text-decoration: none;
+    color: #ffff;
+    width: 100%;
+}
+.about ul li a:hover{
+    text-decoration: none;
+    color:red;
+}
+.new h6{
+    color: #ffff;
+    font-size: x-large;
+    font-family: myfont;
+    font-weight: bolder;
+}
+.new p{
+    color: #ffff;
+}
+input{
+    width: 80%;
+    height: 57px;
+    border-radius: 50px;
+    border: 1px solid #352d57;
+    background-color: transparent;
+    padding-left: 20px;
+}
+.subscribe button{
+    width: 80%;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(#fc4d36,#e22b6b);
+}
+.subscribe button a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: myfont;
+}
+
+@media (max-width: 996px){
+    body{
+        overflow-x: hidden;
+        height: 161vh                                                                                                                               ;
+    }
     #glad{
         font-size: 17px;
         margin-top: 1px;
@@ -634,6 +961,9 @@ label span .bi-list{
         text-align: start;
         
     }
+    .can{
+        margin-top: -103%;
+    }
     
     .bed{
         border: 4px solid #EE2F5B;
@@ -641,15 +971,16 @@ label span .bi-list{
         left: 10px;
         width: 93%;
         border-radius: 10px;
-        margin-top: -70px;
+        margin-top: 110px;
+        overflow-x: hidden;
         position: absolute;
      }
      #lit{
          position: relative;
          left: -15px;
-         height: 350px;
+         height: 369px;
          width: 302px;
-         margin-top: 20px;
+         margin-top: 13px;
      }
      #h1{
         font-size: 12px;
@@ -665,11 +996,11 @@ label span .bi-list{
     .th{
         border: 1px solid white;
         width: 85%;
-        height: 17vh;
+        height: 20%;
         text-align: center;
         margin-left: 20%;
         background-color: #101010;
-        margin-top: 92%;
+        margin-top: 152%;
 
     }
     #style{
@@ -682,10 +1013,9 @@ label span .bi-list{
     .bend{
         position: absolute;
         border: 4px solid #EE2F5B;
-        margin-top: 21%;
-        width: 104%;
-        right: 78%;
-        height: 65vh;
+        margin-top: -50%;
+        width: 106%;
+        height: 280%;
         border-radius: 10px;
         margin-left: -14px;
     }
@@ -694,10 +1024,12 @@ label span .bi-list{
     }
     #up{
         position: relative;
-        width: 101%;
-        height: 70vh;
-        margin-top: -7px;
+        width: 108%;
+        height: 107%;
+        margin-top: -1px;
         right: 10%;
+        padding-top: 8px;
+        
     }
     #red{
         display: flex;
@@ -814,6 +1146,7 @@ label span .bi-list{
         left:-170px;
         background: linear-gradient(to right #fb4c37, #df2771);
         
+        
     }
     .are .learn:hover::before{
         left: 0;
@@ -841,19 +1174,170 @@ label span .bi-list{
     .them{
         border: 1px solid white;
         width: 93%;
-        height: 19vh;
-        text-align: center;
-        padding-top: 20px;
+        height: 60%;
+        padding-top: 0px;
         background-color: #df2771;
-        margin-top: 2px;
-        margin-left: -25px;
+        top: -240px;
+        margin-left: -10px;
+        left: -25px;
     }
-    #about{
-        margin-top: -25px;
+    .live{
+        margin-top: -60%;
+    }
+    #lin{
+        position: relative;
+         left: -15px;
+         height: 369px;
+         width: 302px;
+         margin-top: 13px;
+    }
+    .img-2{
+        margin-top: 50%;
+    }
+    .img-3{
+        border: 4px solid #EE2F5B;
+        height: 60vh;
+        left: 10px;
+        width: 93%;
+        border-radius: 10px;
+        margin-top: 10px;
+        position: absolute;
+    }
+    #about{     
         text-align: start;
     }
     #git{
         font-size: 58px;
         font-family: 'Clash Display', sans-serif;
     }
+    .those{
+        border: 1px solid white;
+        width: 93%;
+        height: 8%;
+        text-align: center;
+        margin-left: 12%;
+        background-color: #101010;
+        margin-top: 120%;
+        padding-bottom: 120px;
+    }
+    #paragraph{
+        font-size: 15px;
+        color: #EE2F5B;
+        font-family: 'Clash Display', sans-serif;
+        display: flex;
+        gap: 8px;
+        margin-top: 60%;
+        
+    }.exhibit-slide {
+        margin-top: 10px;
+    }
+    .exhibit{
+        font-family: 'Clash Display', s sans-serif;
+    }
+    .about-us{
+        color: white;
+        font-size: 14px;
+        font-family: 'Clash Display', s sans-serif;
+        margin-top: 10px;
+
+    }
+    .getnow a.get::after,.get::before{
+        content: "GET NOW";
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        color: #ffff;
+        left: 0;
+        width: 100%;
+        line-height:50px;
+        text-transform: capitalize;
+        transition: all 400ms;
+        background-color: transparent;
+    }
+    .getnow .get::before{
+        content: "GET NOW";
+        left: 190px;
+        background-color: #EE2F5B;
+        width: 100%;
+    }
+    .getnow a.get:hover::after{
+        left:-170px;
+        background: linear-gradient(to right #fb4c37, #df2771);
+        
+    }
+    .getnow .get:hover::before{
+        left: 0;
+    }
+    .getnow a{
+        display: flex;
+        overflow: hidden;
+        width: 160px;
+        height: 42px;
+        position: relative;
+    }
+    .getnow{
+        height: 50px;
+        width: 57%;
+        display: flex;
+        overflow: hidden;
+        border: 1px solid white;
+        position: relative;
+        padding: 30px;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+       
+        
+    }
+    #speak{
+        color: white;
+        font-size: 40px;
+        font-family: 'clash Display', sans-serif;
+        text-align: center;
+    }
+    #phase{
+        color: white;
+        text-align: center;
+    
+    }
+    #speaker-img:hover {
+        filter: brightness(60%);
+        width: 101%;
+    }
+    #speakers{
+        color: #EE2F5B;
+        font-family: 'clash Display', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        justify-content: space-between;
+    }
+    
+    .border-pink{
+    border: 1px solid #df2771;
+    height: 10%;
+    margin-top: -1px;
+    }
+    #butt{
+        margin-top: 25%;
+        height: 45px;
+        width: 70%;
+        border-radius: 20px;
+        background-color: transparent;
+        color: white;
+        border-color: white;
+        bottom: 10px;
+        margin-bottom: 18px;
+    }
+    
+#buy-my{
+    margin-top: 45%;
+    padding-bottom: 10px;
+    height: 45px;
+    width: 70%;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin-bottom: 18px;
+}
 }
